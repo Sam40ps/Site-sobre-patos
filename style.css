@@ -1,0 +1,38 @@
+@keyframes color-change {
+    0% {color: rgb(255, 0, 0);}
+    15% {color: rgb(255, 127, 0);}
+    32% {color: rgb(255, 255, 0);}
+    51% {color: rgb(0, 128, 0);}
+    72% {color: rgb(75, 0, 130);}
+    95% {color: rgb(148, 0, 211);}
+    100% {color: rgb(255, 0, 0);}
+}
+body {
+    font-family: Arial, sans-serif; /* Font family */
+    font-size: 11px; /* O tamanho da fonte principal<p></p> tag  */
+    background-color: #FD98FB; /* A cor do plano de fundo da página */
+    color: #FFFFFF; /* A cor do texto */ 
+}
+h1 {
+    border: 5px solid #5988FF; /* A cor da borda do cabeçalho */
+    color: #FFFFFF; /* A cor do cabeçalho */
+    font-size: 24px; /* O tamanho da fonte do cabeçalho */
+    font-family: Georgia, serif; /* A font usada no cabeçalho*/
+}
+h2 {
+    border: 5px solid #5988FF; /* A cor da borda do cabeçalho menor */
+    color: #FFFFFF; /* A cor do cabeçalho menor */
+    font-size: 18px; /* O tamanho da fonte do cabeçalho */
+    font-family: Georgia, serif; /* A font usada no cabeçalho */
+}
+#imagem_1 {
+    width: 350px;
+    height: 350px;
+}
+#imagem_2 {
+    width: 300px;
+    height: 200px;
+}
+h1:hover {
+    animation: color-change 3s infinite;
+}
